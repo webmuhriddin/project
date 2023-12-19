@@ -1,0 +1,33 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.container {
+  width: 90%;
+  margin: 0px auto;
+  text-align: center;
+  padding: 50px;
+}
+
+p {
+  margin: 10px 0px;
+}
+
+button {
+  padding: 5px 20px;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: transparent;
+  border: 1px solid blue;
+  border-radius: 5px;
+  color: blue;
+  transition: all 0.5s;
+}
+
+button:hover {
+  background-color: blue;
+  color: #fff;
+}
